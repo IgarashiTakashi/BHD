@@ -1189,4 +1189,3 @@ Blockstream首席执行官Adam Back在推特上对于比特币的数个特征发
 9.阿根廷米索尼斯省工业部推出JellyCoin代币，以奖励有效处理垃圾的公民。
 10.纽约健身房Grit Bxng接受BTC付款。
 
-测试
