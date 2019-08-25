@@ -595,9 +595,9 @@ Facebook加密货币项目Libra的介绍白皮书今日正式发布。根据白�
 BitcoinHD基于Bitcoin v0.16.0（4b4d7eb）的源代码，对地址格式、签名、HD钱包相关做了改动。详细的改动如下： 
 
 1. 对需要签名的位置追加“btchd”字符串，
-  见https://github.com/bitcoin/bitcoin/blob/v0.16.0/src/script/interpreter.cpp#L1225
-  和https://github.com/bitcoin/bitcoin/blob/v0.16.0/src/script/interpreter.cpp#L1245。
-  追加形式为“ss << std::string("btchd");”； 
+    见https://github.com/bitcoin/bitcoin/blob/v0.16.0/src/script/interpreter.cpp#L1225
+    和https://github.com/bitcoin/bitcoin/blob/v0.16.0/src/script/interpreter.cpp#L1245。
+    追加形式为“ss << std::string("btchd");”； 
 2. 钱包只支持P2SH地址，P2PKH类型的地址不在支持。地址生成规则同Bitcoin； 
 3. 新创建的钱包会默认在HD钱包中生成一个地址，并设置为“首选地址”，通过“getprimaryaddress”可获取； 
 4. 钱包默认找零到“getprimaryaddress”返回的地址； 
@@ -1189,3 +1189,4 @@ Blockstream首席执行官Adam Back在推特上对于比特币的数个特征发
 9.阿根廷米索尼斯省工业部推出JellyCoin代币，以奖励有效处理垃圾的公民。
 10.纽约健身房Grit Bxng接受BTC付款。
 
+测试
